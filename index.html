@@ -4,8 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="shortcut icon" href="img/favicon.png"> -->
+  <link rel="shortcut icon" href="img/favicon.png">
   <title>White Label</title>
+  <meta name="description" content="Wgite Label for Agencies" />
   <link rel="stylesheet" href="css/plugins.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,7 +20,7 @@
           <div class="navbar-collapse offcanvas-nav">
             <div class="offcanvas-header d-none d-xl-none">
               <a href="#" class="scroll"><img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="Logo" /></a>
-              <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
+              <button type="button" aria-label="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
             </div>
             <ul class="navbar-nav pt-10 pt-md-0">
               <li class="nav-item"><a class="nav-link scroll" href="#services">our services</a></li>
@@ -37,7 +38,7 @@
                 <a href="#contact" class="btn btn-sm btn-primary rounded-0 scroll">contact us</a>
               </li>
               <li class="nav-item d-lg-none">
-                <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
+                <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav" aria-label="Menu"><span></span></button></div>
               </li>
             </ul>
           </div>
@@ -51,7 +52,8 @@
             <h1 class="display-1 mx-md-10 mx-lg-0 text-nowrap text-dark fs-40"><strong>White Label Developers</strong>
             </h1>
             <p class="lead text-dark fs-24 m-0"><strong>Our code<span class="text-primary fs-30">.</span> Your brand<span class="text-primary fs-30">.</span> Simple as that<span class="text-primary fs-30">.</span></strong></p>
-            <p class="text-black-50 fs-22 fw-bold">White Label Web and E-commerce Development for Agencies </p>
+            <p class="text-black-50 fs-22 fw-bold"><span class="typer text-nowrap" data-delay="100" data-delim=":" data-words="White Label Web and E-commerce Development for Agencies"></span><span class="cursor text-primary" data-owner="typer"></span>
+            </p>
             <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="900">
               <span><a href="#contact" class="btn btn-md btn-primary rounded-0 me-2 scroll">get free quote</a></span>
             </div>
@@ -557,13 +559,14 @@
 						<p class="mb-0 ps-3">Yearly</p>
 					</div> -->
         <div class="row gy-6 mt-3 mt-md-5">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-3 col-lg-3">
             <div class="pricing card text-center rounded-0">
               <div class="card-body">
-                <img src="img/icons/shopping-basket.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Basket" />
-                <h4 class="card-title">Basic Plan</h4>
+                <img src="img/icons/browser.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Browser" />
+                <h4 class="card-title">Landing Page</h4>
                 <div class="prices text-dark">
-                  <div class="price price-show"><span class="price-currency">$</span><span class="price-value">2000</span>
+                  <p>starting from</p>
+                  <div class="price price-show d-flex justify-content-center"><span class="price-currency">$</span><span class="price-value">2000</span>
                     <!-- <span class="price-duration">month</span> -->
                   </div>
                   <!-- <div class="price price-hide price-hidden"><span
@@ -571,72 +574,95 @@
 												class="price-duration">year</span></div> -->
                 </div>
                 <ul class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9 text-start">
-                  <li><i class="uil uil-check"></i><span><strong>1</strong> Project </span></li>
-                  <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span>
-                  </li>
-                  <li><i class="uil uil-check"></i><span><strong>100MB</strong> Storage </span>
-                  </li>
-                  <li><i class="uil uil-times bullet-soft-red"></i><span> Weekly <strong>Reports</strong> </span></li>
-                  <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                  <li><i class="uil uil-check"></i><span><strong>~4</strong> business days deployment time </span></li>
+                  <li><i class="uil uil-check"></i><span> Handy UX/UI </span></li>
+                  <li><i class="uil uil-check"></i><span> SEO and speed optimization </span></li>
+                  <li><i class="uil uil-check"></i><span> 404 Error Page </span></li>
+                  <li><i class="uil uil-check"></i><span> 90 days warranty included </span></li>
+                  <li><i class="uil uil-check"></i><span> QA testing </span></li>
+                  <li><i class="uil uil-check"></i><span> Content setup (up to ... pages) </span></li>
                 </ul>
                 <a href="#contact" class="btn btn-primary rounded-0 scroll">get free quote</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 popular">
+          <div class="col-md-3 col-lg-3">
             <div class="pricing card text-center rounded-0">
               <div class="card-body">
-                <img src="img/icons/home.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Home" />
-                <h4 class="card-title">Premium Plan</h4>
+                <img src="img/icons/computer.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Computer" />
+                <h4 class="card-title">Website</h4>
                 <div class="prices text-dark">
-                  <div class="price price-show"><span class="price-currency">$</span><span class="price-value">4000</span>
+                  <p>starting from</p>
+                  <div class="price price-show d-flex justify-content-center"><span class="price-currency">$</span><span class="price-value">5000</span>
                     <!-- <span class="price-duration">month</span> -->
                   </div>
                   <!-- <div class="price price-hide price-hidden"><span
-												class="price-currency">$</span><span class="price-value">199</span>
-											<span class="price-duration">year</span>
-										</div> -->
+												class="price-currency">$</span><span class="price-value">99</span> <span
+												class="price-duration">year</span></div> -->
                 </div>
-                <!--/.prices -->
                 <ul class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9 text-start">
-                  <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                  <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span>
-                  </li>
-                  <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span>
-                  </li>
-                  <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span>
-                  </li>
-                  <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                  <li><i class="uil uil-check"></i><span><strong>~14-40</strong> business days deployment time </span></li>
+                  <li><i class="uil uil-check"></i><span> Handy UX/UI </span></li>
+                  <li><i class="uil uil-check"></i><span> SEO and speed optimization </span></li>
+                  <li><i class="uil uil-check"></i><span> 404 Error Page </span></li>
+                  <li><i class="uil uil-check"></i><span> 90 days warranty included </span></li>
+                  <li><i class="uil uil-check"></i><span> QA testing </span></li>
+                  <li><i class="uil uil-check"></i><span> Content setup (up to ... pages) </span></li>
                 </ul>
                 <a href="#contact" class="btn btn-primary rounded-0 scroll">get free quote</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+          <div class="col-md-3 col-lg-3">
             <div class="pricing card text-center rounded-0">
               <div class="card-body">
-                <img src="img/icons/briefcase-2.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Briefcase" />
-                <h4 class="card-title">Corporate Plan</h4>
+                <img src="img/icons/shopping-cart.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Cart" />
+                <h4 class="card-title">E-commerce Shop</h4>
                 <div class="prices text-dark">
-                  <div class="price price-show"><span class="price-currency">$</span><span class="price-value">8000</span>
+                  <p>starting from</p>
+                  <div class="price price-show d-flex justify-content-center"><span class="price-currency">$</span><span class="price-value">10000</span>
                     <!-- <span class="price-duration">month</span> -->
                   </div>
                   <!-- <div class="price price-hide price-hidden"><span
-												class="price-currency">$</span><span class="price-value">499</span>
-											<span class="price-duration">year</span>
-										</div> -->
+												class="price-currency">$</span><span class="price-value">99</span> <span
+												class="price-duration">year</span></div> -->
                 </div>
-                <!--/.prices -->
                 <ul class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9 text-start">
-                  <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                  <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span>
-                  </li>
-                  <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span>
-                  </li>
-                  <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span>
-                  </li>
-                  <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span>
-                  </li>
+                  <li><i class="uil uil-check"></i><span><strong>~20</strong> business days deployment time </span></li>
+                  <li><i class="uil uil-check"></i><span> Handy UX/UI </span></li>
+                  <li><i class="uil uil-check"></i><span> SEO and speed optimization </span></li>
+                  <li><i class="uil uil-check"></i><span> 404 Error Page </span></li>
+                  <li><i class="uil uil-check"></i><span> 90 days warranty included </span></li>
+                  <li><i class="uil uil-check"></i><span> QA testing </span></li>
+                  <li><i class="uil uil-check"></i><span> Content setup (up to ... pages) </span></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary rounded-0 scroll">get free quote</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <div class="pricing card text-center rounded-0">
+              <div class="card-body">
+                <img src="img/icons/watercolor.svg" class="svg-inject icon-svg icon-svg-md text-primary mb-3" alt="Basket" />
+                <h4 class="card-title">UX/UI Design</h4>
+                <div class="prices text-dark">
+                  <p>starting from</p>
+                  <div class="price price-show d-flex justify-content-center"><span class="price-currency">$</span><span class="price-value">3000</span>
+                    <!-- <span class="price-duration">month</span> -->
+                  </div>
+                  <!-- <div class="price price-hide price-hidden"><span
+												class="price-currency">$</span><span class="price-value">99</span> <span
+												class="price-duration">year</span></div> -->
+                </div>
+                <ul class="icon-list bullet-bg bullet-soft-primary mt-8 mb-9 text-start">
+                  <li><i class="uil uil-check"></i><span><strong>~7-14</strong> workshop + design time </span></li>
+                  <li><i class="uil uil-check"></i><span> ... workshop sessions </span></li>
+                  <li><i class="uil uil-check"></i><span> Mobile & desktop </span></li>
+                  <li><i class="uil uil-check"></i><span> Expirience design </span></li>
+                  <li><i class="uil uil-check"></i><span> Clickable sketch prototype (up to ... sketches) </span></li>
+                  <li><br /></li>
+                  <li><br /></li>
+                  <li><br /></li>
                 </ul>
                 <a href="#contact" class="btn btn-primary rounded-0 scroll">get free quote</a>
               </div>
