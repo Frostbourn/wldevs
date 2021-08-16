@@ -235,19 +235,30 @@
               <div class="d-flex justify-content-center fs-18 text-black-50 fw-bold">EFFECTIVE RATE</div>
               <div class="d-flex flex-column justify-content-center fs-24">Just one<strong> Digital Specialist</strong>
               </div>
-              <div class="d-flex flex-column justify-content-center text-center fs-24"><span class="text-primary">$$$</span> Approx. <strong> 85k/year</strong>
+              <div class="d-flex flex-column justify-content-center text-center fs-24 price-info"><span class="text-primary">$$$</span> Approx. <strong> 85k/year</strong>
+                <input type="hidden" name="displayAmt" class="displayAmt" value="85000">
               </div>
-              <div class="d-flex flex-column text-center justify-content-center fs-24"><span id="rateOne" class="text-primary"></span>
-                <div class="slidecontainer">
-                  <input type="range" min="8500" max="17000" value="8500" step="850" class="slider" id="myRange">
+              <div class="d-flex flex-column text-center justify-content-center fs-24">
+                <div class="price-info">
+                  <span class="text-primary">$<label class="benefitCalc">8500</label></span>
+                </div>
+                <div class="price-slider slidecontainer">
+                  <span>10%</span>
+                  <input type="range" min="10" max="20" value="10" class="slider range" id="benefitCalc">
+                  <span>20%</span>
                 </div>
               </div>
-              <div class="d-flex flex-column text-center justify-content-center fs-24"><span id="rateTwo" class="text-primary"></span>
-                <div class="slidecontainer">
-                  <input type="range" min="20" max="80" value="20" step="1" class="slider" id="myRangeTwo">
+              <div class="d-flex flex-column text-center justify-content-center fs-24">
+                <div class="price-info">
+                  <span class="text-primary"><label class="utilizedCalc">50</label>%</span>
+                </div>
+                <div class="price-slider slidecontainer">
+                  <span>30%</span>
+                  <input type="range" min="30" max="80" value="50" class="slider range" id="utilizedCalc">
+                  <span>80%</span>
                 </div>
               </div>
-              <div class="d-flex flex-column justify-content-center text-center fs-24"><span id="hourlyRate" class="text-primary fw-bolder"></span> Hourly cost </div>
+              <div class="d-flex flex-column justify-content-center text-center fs-24"><span id="hourlyRate" class="text-primary fw-bolder">$<label id="updateTotal">60.75</label></span> Hourly cost </div>
               <div class="d-flex flex-column justify-content-center fs-24">Our dedicated<strong> White Label Team</strong>
               </div>
               <div class="d-flex flex-column justify-content-center text-center fs-24"><span class="text-primary">$$$</span> Approx. <strong> 0k/year</strong>
@@ -255,7 +266,7 @@
               <div class="d-flex justify-content-center text-center fs-24"><span class="text-primary">$0</span>
               </div>
               <div class="d-flex flex-column justify-content-center text-center fs-24"><span class="text-primary">100% </span>full time job </div>
-              <div class="d-flex flex-column justify-content-center text-center fs-24"><span class="text-primary fw-bolder">$89.90</span> Hourly cost </div>
+              <div class="d-flex flex-column justify-content-center text-center fs-24"><span class="text-primary fw-bolder">$35 - $45</span> Hourly cost </div>
             </div>
           </div>
         </div>
@@ -440,45 +451,47 @@
   </section>
   <section id="work" class="wrapper bg-light wrapper-border">
     <div class="container py-14 py-md-16">
-      <div class="carousel owl-carousel grid-view" data-margin="30" data-dots="true" data-autoplay="true" data-autoplay-timeout="3500" data-loop="true" data-responsive='{"0":{"items": "1"}, "768":{"items": "1"}, "992":{"items": "1"}, "1200":{"items": "1"}}'>
+      <h2 class="display-4 mb-3 text-uppercase">Our Work</h2>
+      <p class="lead fs-lg text-uppercase" style="font-weight:800;">LET OUR WORK SPEAK FOR ITSELF</p>
+      <div class="carousel owl-carousel grid-view" data-margin="30" data-dots="true" data-autoplay="true" data-autoplay-timeout="5000" data-loop="true" data-responsive='{"0":{"items": "1"}, "768":{"items": "1"}, "992":{"items": "1"}, "1200":{"items": "1"}}'>
         <div class="item">
           <div class="container">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
               <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
                 <div class="shape bg-soft-primary square rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
-                <figure class="rounded"><img src="img/portfolio/portfolio_1.png" alt="Portfolio">
+                <figure class="rounded"><img src="img/portfolio/airrarotonga.png" alt="Portfolio">
                 </figure>
               </div>
               <div class="col-lg-6">
-                <h2 class="display-4 mb-3 text-uppercase">Our Work</h2>
-                <p class="lead fs-lg fw-bolder text-uppercase">LET OUR WORK SPEAK FOR ITSELF</p>
-                <p class="mb-6">Nowoczesny, ponadczasowy sklep internetowy dla miłośników markowej porcelany stworzony na platformie PrestaShop.</p>
+                <p class="lead fs-lg fw-bolder text-uppercase">Air Rarotonga</p>
+                <p><a class="text-primary" href="https://airraro.com/" target="_blank">https://airraro.com</a> </p>
+                <p class="mb-6">Stylish graphic design and a modern WordPress website for airlines from the Cook Islands. </p>
                 <div class="row gx-xl-10 gy-6">
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
-                        <h4 class="mb-1 fw-bold">#eCommerce</h4>
+                        <h4 class="mb-1 fw-bold">#Website</h4>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
-                        <h4 class="mb-1 fw-bold">#eCommerce</h4>
+                        <h4 class="mb-1 fw-bold">#UX Design</h4>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
-                        <h4 class="mb-1 fw-bold">#eCommerce</h4>
+                        <h4 class="mb-1 fw-bold">#UI Design</h4>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
-                        <h4 class="mb-1 fw-bold">#eCommerce</h4>
+                        <h4 class="mb-1 fw-bold">#WordPress</h4>
                       </div>
                     </div>
                   </div>
@@ -492,13 +505,98 @@
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
               <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
                 <div class="shape bg-soft-primary square rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
-                <figure class="rounded"><img src="img/portfolio/portfolio_1.png" alt="Portfolio">
+                <figure class="rounded"><img src="img/portfolio/vaka.png" alt="Portfolio">
                 </figure>
               </div>
               <div class="col-lg-6">
-                <h2 class="display-4 mb-3 text-uppercase">Our Work</h2>
-                <p class="lead fs-lg fw-bolder text-uppercase">LET OUR WORK SPEAK FOR ITSELF</p>
-                <p class="mb-6">Nowoczesny, ponadczasowy sklep internetowy dla miłośników markowej porcelany stworzony na platformie PrestaShop.</p>
+                <p class="lead fs-lg fw-bolder text-uppercase">Paradise Islands Ltd. </p>
+                <p><a class="text-primary" href="https://www.thevakacruise.com/" target="_blank">https://www.thevakacruise.com</a> </p>
+                <p class="mb-6">Attractive graphic and functional design as well as a modern WordPress website for a client from the tourism industry. </p>
+                <div class="row gx-xl-10 gy-6">
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#Website</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#UX Design</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#UI Design</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#WordPress</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
+                <div class="shape bg-soft-primary square rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+                <figure class="rounded"><img src="img/portfolio/drukpoznan.png" alt="Portfolio">
+                </figure>
+              </div>
+              <div class="col-lg-6">
+                <p class="lead fs-lg fw-bolder text-uppercase">DrukPoznań</p>
+                <p><a class="text-primary" href="https://drukpoznan.pl/" target="_blank">https://drukpoznan.pl</a> </p>
+                <p class="mb-6">WordPress website implementation based on an external graphic design for a company from the printing industry. </p>
+                <div class="row gx-xl-10 gy-6">
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#Website</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#Implementation</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#WordPress</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
+                <div class="shape bg-soft-primary square rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+                <figure class="rounded"><img src="img/portfolio/muunel.png" alt="Portfolio">
+                </figure>
+              </div>
+              <div class="col-lg-6">
+                <p class="lead fs-lg fw-bolder text-uppercase">Muunel</p>
+                <p><a class="text-primary" href="https://muunel.ro/en/" target="_blank">https://muunel.ro</a> </p>
+                <p class="mb-6">Implementation of a modern and functional WooCommerce online store with glasses based on an external graphic design. </p>
                 <div class="row gx-xl-10 gy-6">
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
@@ -510,10 +608,35 @@
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
-                        <h4 class="mb-1 fw-bold">#eCommerce</h4>
+                        <h4 class="mb-1 fw-bold">#Implementation</h4>
                       </div>
                     </div>
                   </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#WooCommerce</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
+                <div class="shape bg-soft-primary square rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+                <figure class="rounded"><img src="img/portfolio/babyono.png" alt="Portfolio">
+                </figure>
+              </div>
+              <div class="col-lg-6">
+                <p class="lead fs-lg fw-bolder text-uppercase">Babyono</p>
+                <p><a class="text-primary" href="https://babyono.com/" target="_blank">https://babyono.com</a> </p>
+                <p class="mb-6">eCommerce workshops, graphic design and implementation of an online store based on WooCommerce for a customer from the children's articles industry. </p>
+                <div class="row gx-xl-10 gy-6">
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
@@ -524,7 +647,60 @@
                   <div class="col-md-6">
                     <div class="d-flex flex-row">
                       <div>
+                        <h4 class="mb-1 fw-bold">#Workshops</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#UX/UI Design</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#WooCommerce</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+              <div class="col-md-8 col-lg-6 col-xl-5 order-lg-2 position-relative">
+                <div class="shape bg-soft-primary square rellax w-20 h-20" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+                <figure class="rounded"><img src="img/portfolio/inmondo.png" alt="Portfolio">
+                </figure>
+              </div>
+              <div class="col-lg-6">
+                <p class="lead fs-lg fw-bolder text-uppercase">Inmondo</p>
+                <p><a class="text-primary" href="https://inmondo.pl/en/" target="_blank">https://inmondo.pl/</a> </p>
+                <p class="mb-6">Implementation of an WooCommerce online store based on a dedicated graphic design provided by the agency. </p>
+                <div class="row gx-xl-10 gy-6">
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
                         <h4 class="mb-1 fw-bold">#eCommerce</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#Implementation</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <h4 class="mb-1 fw-bold">#WooCommerce</h4>
                       </div>
                     </div>
                   </div>
