@@ -10,11 +10,11 @@ require 'PHPMailer-master/PHPMailerAutoload.php';
 */
 
 // an email address that will be in the From field of the email.
-$fromEmail = 'k.stola@blueowl.pl';
+$fromEmail = 'k.stola@wldevs.com';
 $fromName = 'WLDEVS';
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'k.stola@blueowl.pl';
+$sendToEmail = 'k.stola@wldevs.com';
 $sendToName = 'WLDEVS';
 
 // subject of the email
